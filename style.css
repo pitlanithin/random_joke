@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(232, 55, 55, 0.5), rgba(35, 227, 35, 0.5));
+    font-size: 16px;
+}
+
+.main {
+    border: 3px solid rgb(6, 2, 0);
+    border-radius: 5px;
+    padding: 20px;
+   /* background-color: rgb(83, 62, 103); */
+    width: 450px;
+}
+
+#icon {
+    font-size: 90px;
+
+}
+
+.para {
+    font-size: 18px;
+    display: none;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+    cursor: pointer;
+
+}
